@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{8B32D624-367A-42A5-AAE8-FAB924BC3DF2}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+		Vector2D.cs = Vector2D.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "ServerClient\View.csproj", "{39D1FA59-4D1F-4DBA-80DE-90A7FC5ECA9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{21008891-6CEB-4588-931A-ACEDE79503E4}"
+	ProjectSection(SolutionItems) = preProject
+		Images\ship-coast-blue.png = Images\ship-coast-blue.png
+		Images\ship-coast-brown.png = Images\ship-coast-brown.png
+		Images\ship-coast-green.png = Images\ship-coast-green.png
+		Images\ship-coast-grey.png = Images\ship-coast-grey.png
+		Images\ship-coast-red.png = Images\ship-coast-red.png
+		Images\ship-coast-violet.png = Images\ship-coast-violet.png
+		Images\ship-coast-white.png = Images\ship-coast-white.png
+		Images\ship-coast-yellow.png = Images\ship-coast-yellow.png
+		Images\ship-thrust-blue.png = Images\ship-thrust-blue.png
+		Images\ship-thrust-brown.png = Images\ship-thrust-brown.png
+		Images\ship-thrust-green.png = Images\ship-thrust-green.png
+		Images\ship-thrust-grey.png = Images\ship-thrust-grey.png
+		Images\ship-thrust-red.png = Images\ship-thrust-red.png
+		Images\ship-thrust-violet.png = Images\ship-thrust-violet.png
+		Images\ship-thrust-white.png = Images\ship-thrust-white.png
+		Images\ship-thrust-yellow.png = Images\ship-thrust-yellow.png
+		Images\shot-blue.png = Images\shot-blue.png
+		Images\shot-brown.png = Images\shot-brown.png
+		Images\shot-green.png = Images\shot-green.png
+		Images\shot-grey.png = Images\shot-grey.png
+		Images\shot-red.png = Images\shot-red.png
+		Images\shot-violet.png = Images\shot-violet.png
+		Images\shot-white.png = Images\shot-white.png
+		Images\shot-yellow.png = Images\shot-yellow.png
+		Images\star.jpg = Images\star.jpg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWorld", "TheWorld\TheWorld.csproj", "{42B1197C-E7EF-428C-8BEB-2182D1E45BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheShip", "TheShip\TheShip.csproj", "{4D61413E-B96E-48DD-8A7F-408F591F90EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projectile", "Projectile\Projectile.csproj", "{7EB0822F-574F-4C8E-9AEF-626E5E1D4155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star", "Star\Star.csproj", "{C7F978D4-C138-4A24-A90F-8E5F91510B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector", "Vector\Vector.csproj", "{ECC70ECE-4E0F-40C5-B643-E0CA51B139BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkController", "NetworkController\NetworkController.csproj", "{FB078B9C-594C-4DEF-ACF9-4CE5389C92FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingPanel", "DrawingPanel\DrawingPanel.csproj", "{55011348-3802-481E-A8A0-383A4AFF1324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessMessage", "ProcessMessage\ProcessMessage.csproj", "{98626731-7477-4CD0-95AC-BA0AB4934421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{12C20658-D67C-4191-B449-ECB8B52CB0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTest", "ServerTest\ServerTest.csproj", "{372173BA-DDA0-4468-88B2-17AEB66DD388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServer", "WebServer\WebServer.csproj", "{F41A7CC1-519A-4503-B5CF-2EDEA6348ADF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D1FA59-4D1F-4DBA-80DE-90A7FC5ECA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D1FA59-4D1F-4DBA-80DE-90A7FC5ECA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D1FA59-4D1F-4DBA-80DE-90A7FC5ECA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D1FA59-4D1F-4DBA-80DE-90A7FC5ECA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B1197C-E7EF-428C-8BEB-2182D1E45BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B1197C-E7EF-428C-8BEB-2182D1E45BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B1197C-E7EF-428C-8BEB-2182D1E45BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B1197C-E7EF-428C-8BEB-2182D1E45BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D61413E-B96E-48DD-8A7F-408F591F90EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D61413E-B96E-48DD-8A7F-408F591F90EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D61413E-B96E-48DD-8A7F-408F591F90EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D61413E-B96E-48DD-8A7F-408F591F90EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB0822F-574F-4C8E-9AEF-626E5E1D4155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB0822F-574F-4C8E-9AEF-626E5E1D4155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB0822F-574F-4C8E-9AEF-626E5E1D4155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB0822F-574F-4C8E-9AEF-626E5E1D4155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F978D4-C138-4A24-A90F-8E5F91510B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F978D4-C138-4A24-A90F-8E5F91510B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F978D4-C138-4A24-A90F-8E5F91510B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F978D4-C138-4A24-A90F-8E5F91510B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC70ECE-4E0F-40C5-B643-E0CA51B139BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC70ECE-4E0F-40C5-B643-E0CA51B139BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC70ECE-4E0F-40C5-B643-E0CA51B139BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC70ECE-4E0F-40C5-B643-E0CA51B139BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB078B9C-594C-4DEF-ACF9-4CE5389C92FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB078B9C-594C-4DEF-ACF9-4CE5389C92FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB078B9C-594C-4DEF-ACF9-4CE5389C92FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB078B9C-594C-4DEF-ACF9-4CE5389C92FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55011348-3802-481E-A8A0-383A4AFF1324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55011348-3802-481E-A8A0-383A4AFF1324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55011348-3802-481E-A8A0-383A4AFF1324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55011348-3802-481E-A8A0-383A4AFF1324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98626731-7477-4CD0-95AC-BA0AB4934421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98626731-7477-4CD0-95AC-BA0AB4934421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98626731-7477-4CD0-95AC-BA0AB4934421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98626731-7477-4CD0-95AC-BA0AB4934421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C20658-D67C-4191-B449-ECB8B52CB0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C20658-D67C-4191-B449-ECB8B52CB0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C20658-D67C-4191-B449-ECB8B52CB0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C20658-D67C-4191-B449-ECB8B52CB0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372173BA-DDA0-4468-88B2-17AEB66DD388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372173BA-DDA0-4468-88B2-17AEB66DD388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372173BA-DDA0-4468-88B2-17AEB66DD388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372173BA-DDA0-4468-88B2-17AEB66DD388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41A7CC1-519A-4503-B5CF-2EDEA6348ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41A7CC1-519A-4503-B5CF-2EDEA6348ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41A7CC1-519A-4503-B5CF-2EDEA6348ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41A7CC1-519A-4503-B5CF-2EDEA6348ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21008891-6CEB-4588-931A-ACEDE79503E4} = {8B32D624-367A-42A5-AAE8-FAB924BC3DF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE908D3A-5455-4A13-B9A6-AE55FDCD5E7D}
+	EndGlobalSection
+EndGlobal
